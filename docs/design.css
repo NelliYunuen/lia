@@ -1,0 +1,180 @@
+/* 	
+	ELABPRADO POR: 
+	GARCIÍA DE SANTIAGO SUSANA PAULINA
+	PEÑA SEGUNDO NELLI YUNUEN
+*/
+
+/*Cuerpo de la página*/
+
+body{
+	margin: 0px;
+	margin-bottom: -25px; /*Omite el espacio en blanco de abajo de la página web*/
+}
+
+/*Encabezado completo de la página*/
+
+#main{
+	background-color: #2C5234; /*Verde olivo*/
+	position: fixed; /*Posiciona el encabezado completo siempre en la parte de arriba*/
+	height: 125px; /*Tamaño de alto en pixeles*/
+	width:100%; /*Tamaño del ancho (el 100% de la página)*/
+}
+
+/*Imagen del encabezado*/
+.img1{
+	padding-top: .5%;
+	margin-left:8%;
+	height: 110px;
+}
+
+/*Sección de título principal y navegación*/
+
+.encabezado{
+	padding-top: 15px; 
+	width: 75%;
+	height: 87%;
+	background-color: white;
+	float: right; /*Lo posiciona a la derecha*/
+}
+
+/*Titulo principal de la página*/
+
+h1{
+	display:inline;
+	font-size: 37px;
+	font-family: Metropolis;
+}
+
+/*Barra de navegación*/
+
+nav{
+	height: 45.8%;
+	margin-top: 2px;
+	background-color: #9C8412; /*Color oro*/
+	padding-left: 135px;
+}
+
+/* Elementos de la barra de navegación (lista)*/
+
+nav li {
+	list-style: none; /*Quita el formato de lista*/
+	margin-left: 37px;
+	float: left;
+}
+
+/* Regla que se aplica a los enlaces que estén dentro de una lista */
+
+li a {
+	text-align: center;
+	font-size: 20px;
+	display: block;
+	padding:13.5px;
+	color:#fff; /*blanco*/
+}
+
+/*Animación al pasar el ratón sobre un enlace*/
+a:hover {
+	background:#FFBF00; 
+}
+
+
+/*CONTENIDO DE LA PÁGINA*/
+
+section{
+	margin: auto; /*Centrará al elemento section de acuerdo con el tamaño de la página*/
+	width: 80%; /*Ancho del elemento section respecto al tamaño de la página*/
+	padding-top:165px; 
+}
+
+/*Regla que aplica para el encabezado de nivel 2*/
+
+h2{
+	font-size: 30px;
+	font-family: Oswald;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+/*Regla del tamaño de la imagen del principio*/
+.fca{
+	width:30%;
+}
+
+/*Modifica el tipo y tamaño de fuente a aquellos elementos que tiene la clase fuente */
+.fuente{
+	font-size: 33px;
+	font-family: Lucida Handwriting;
+}
+
+/*Regla que aplica para todos los elementos con selección; da formato a los margenes y el borde*/
+h2 + div{
+	margin-right: auto;
+	margin-left: auto;
+	border-top: #405C0A 10px inset;
+	border-bottom: #405C0A 10px inset; 
+	margin-bottom: 60px;
+}
+
+/*Regla que aplica al id imagenes, da formato al tamaño de margenes interno y externos, así como su tamaño*/
+#imagenes {
+	margin-left: 70;
+	margin-right: 50;
+	padding: 20px;
+	width: 30%;
+}
+
+/*Regla que aplica para la clase imagen; da formato al tamaño de la imagen*/
+#imagen{
+	vertical-align:center;
+	width:55%;
+}
+
+/*Regla que aplica a la clase sub, alinea el texto cambía el color y tamaño de letra, y el texto se vueleve en negritas*/
+.sub {
+	text-align: center;
+	color: #2C5234;
+	font-size: 30px;
+	font-weight: bold;
+}	
+
+/*Regla que aplica a todos los enlaces*/
+
+a{
+	font-family: Bodoni MT;
+	font-size:25px;
+	text-decoration: none; /* Le quita el formato de enlace */
+	color: #0B0B61; /*Azul marino*/
+}
+
+/* Regla que aplica para todos los párrafos y las listas */
+
+p, li{
+	font-size: 22;
+	font-family: Century Gothic;
+}
+
+/* Regla que se aplica a los encabezzados de nivel 3 */
+
+h3{
+	font-family: Century Gothic;
+	display:inline-block;
+	text-align:center;
+	margin-bottom: 20px;
+}
+
+/* Regla que se aplica al elemento footer */
+
+footer{
+	background-color: #2C5234; /* verde olivo */
+	margin-top: 100px;
+	padding-left: 30px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	color: white;
+	text-align: center;
+}
+
+/* Regla que aplica a la clase copyright */
+.copyright{
+	padding-top: 25px;
+}

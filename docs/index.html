@@ -1,0 +1,195 @@
+<!-- 
+	ELABORADO POR:
+	GARCÍA DE SANTIAGO SUSANA PAULINA
+	PEÑA SEGUNDO NELLI YUNUEN
+ -->
+
+<html> 
+	<head> 
+		<title>LIA's in da House</title>
+		
+		<!-- Apertura de style. Se usa para agregar css interno -->
+		<style type="text/css">
+			
+			/*Titulo principal de la página*/
+			h1{
+				margin-left: 200px;
+			}
+			
+			/*Regla que aplica para la clase titulo2*/
+
+			.titulo2{
+				font-size: 35px;
+			}
+			
+			/* Regla que aplica a la clase frase (primer párrafo) */
+
+			.frase{
+				display: inline;
+				font-size: 25;
+			}
+			
+			/* Regla que aplica para las clases imgl y imgu */
+
+			.imgl, .imgu{
+				width: 30%;
+				float: left;
+				margin-right: 60px;
+			}
+			
+			/* Regla que aplica a la clase imge */
+
+			.imge{
+				float: right;
+			}
+			
+			/* Regla que se aplica a la clase plantel  */
+
+			.plantel{
+				font-family: Oswald;
+				font-size: 25;
+				text-align: center;
+				margin-left: 83px;
+			}
+			
+			/* Regla que se aplica a los encabezados que estén dentro del elemento id cu */
+			
+			#cu h3{
+				width: 25%;
+				margin: 22px;
+				padding: 20px;
+			}
+			
+			/* Regla que se aplica unicamente a los elementos img que se encuentren dentro de un enlace, y a la clase imge */
+
+			a img, .imge{
+				width: 26%;
+				height: 28%;
+				margin-left: 60px;
+			}
+		</style>
+		<!-- CSS externas -->
+		<link rel="stylesheet" href="design.css">
+	</head>
+		
+	<body >
+		<!-- Encabezado -->
+		<header id="main">
+			<img class="img1" src="img/escu.png">
+			<div class="encabezado">
+				<h1>Informática Administrativa</h1>
+				<nav>
+					<ul> <!-- Barra de navegación -->
+						<li><a href="#">Inicio</a></li>
+						<li><a href="pages/carrera.html">Infórmate</a></li>
+						<li><a href="pages/campl.html">Campo laboral</a></li>
+						<li><a href="#contacto">Contácto</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		
+		<!-- Elemento section-->
+		<section>
+			<!-- Elemento div -->
+			<div>
+				<!-- Se crean clases a los elementos, las cuales ayudarán para los estilos de tamaño, flotante, entre otros -->
+				<img src="img/home/lic.jpg" class="imgl">
+				
+				<!--Encabezado nivel 2-->
+				<h2 class="titulo2">¿Te gusta la informática?</h2>
+				<!-- Párrafo -->
+				<p class="frase">¿Te gustaría utilizar las tecnologías para administrar ágilmente la información en la toma de decisiones? 
+				¿Eres creativo, innovador y te gusta el trabajo en equipo? Conoce una carrera donde podrás desarrollar tu talento 
+				de manera óptima</p>
+				<br><br><br>
+				
+				<!-- Enlace a la página de la licenciatura -->
+				<a href="pages/licenciatura.html" target="_blank">Infórmate más sobre la licenciatura</a>
+				
+				<br><br><br><br><br><br><br>
+				
+				<!--  Imagen -->
+				<img src="img/home/facultad1.png" class="imge">
+				<p>La licenciatura en informática administrativa se comenzó a impartir en 1993 en la Facultad de Contaduría y Administración.</p>
+				<br>
+				
+				<!-- Enlace a la página de la faculad -->
+				<a href="pages/FCA.html" target="_blank">Conoce más sobre la facultad.</a>
+				
+				<br><br><br><br><br><br><br>
+				<img src="img/home/uuaemex.png" class="imgu">
+				<p>La facultad de contaduría y administración fue fundada en la Universidad Autónoma del Estado de México entre los años 1954 y 1955.</p>
+				<br><br>
+				
+				<!-- Enlace a la página de la universidad -->
+				<a href="pages/UAEMEX.html" target="_blank">Conoce más sobre la UAEMex</a>
+			</div> <!--Cierrer de elemento div-->
+			
+			<!-- Elemento div -->
+			<div id="cu"> <!-- Creación de id para alinear sus encabezados nivel 3 -->
+				<br><br><br><br><br><br><br>
+				
+				<!-- Enlace la página de planteles -->
+				<a href="pages/planteles.html" target="_blank" class="plantel">Planteles de la UAEMex en los que se imparte la licenciatura en informática administrativa</a>
+				<br>
+				
+				<h3>Facultad de contaduría y administración Unidad "Los Uribe"</h3>
+				<h3>Facultad de contaduría y administración</h3>
+				<h3>Centro Universitario UAEM Atlacomulco</h3>
+				
+				<!-- Se ponen imágenes con enlaces que llevarán a la página web de los planteles, exactamente en el plantel al que se dé clic -->
+				<a href="pages/planteles.html#p1" target="_blank">
+					<img src="img/home/facu.png">
+				</a>
+				
+				<a href="pages/planteles.html#p2" target="_blank">
+					<img src="img/home/facc.jpg">
+				</a>
+				
+				<a href="pages/planteles.html#p3" target="_blank">
+					<img src="img/home/faca.png">
+				</a>
+				
+				
+				<h3>Centro Universitario UAEM Ecatepec</h3>
+				<h3>Centro Universitario UAEM Temascaltepec</h3>
+				<h3>Centro Universitario UAEM Texcoco</h3>
+				
+				<a href="pages/planteles.html#p4" target="_blank">
+					<img src="img/home/face.png">
+				</a>
+				<a href="pages/planteles.html#p5" target="_blank"> 
+					<img src="img/home/fact.png">
+				</a>
+				<a href="pages/planteles.html#p6" target="_blank"> 
+					<img src="img/home/factex.png">
+				</a>
+				
+				<h3>Centro Universitario UAEM Valle de Chalco</h3>
+				<h3>Centro Universitario UAEM Valle de México</h3>
+				<h3>Centro Universitario UAEM Valle de Teotihuacán</h3>
+				
+				<a href="pages/planteles.html#p7" target="_blank"> 
+					<img src="img/home/facvc.png">
+				</a>
+				<a href="pages/planteles.html#p8" target="_blank">
+					<img src="img/home/facvm.png">
+				</a>
+				<a href="pages/planteles.html#p9" target="_blank"> 
+					<img src="img/home/facvteo.png">
+				</a>
+				
+			</div>	
+		</section>
+		<!-- Pie de la página web -->
+		<footer id="contacto">
+			<p>Dirección <br> Cerro de Coatepec S/N, Ciudad Universitaria <br> Toluca, Edo. de México C.P. 50110</p>
+			<p>Fax: 215 47 44 <br> Teléfonos: (01 722) 214 02 50</p>
+			
+			<!-- Derechos de autor -->
+			<div class="copyright">&copy: 2021 Susi y Nelli. Todos los derechos reservados.</div>
+		</footer>
+	</body>
+
+</html>
